@@ -8,6 +8,7 @@
 * Table-Cell
 * Inline-Block
 * Flexbox
+* Grid
 
 ## Comparison Table
 
