@@ -19,3 +19,4 @@
 | Table-Cell | Modern & IE8+ | Yes | Expands container | No | Yes | Extra markup |
 | Inline-Block | Modern, IE8+ & IE7* | Yes | Expands container | No | Yes | Requires container, hacky styles |
 | Flexbox | Modern & IE10+ | Yes | Scroll, can overflow container | Yes | Yes | Requires container, vendor prefixes |
+| Grid | Modern & IE11* | Yes | Scroll, can overflow container | Yes | Yes | Requires container, vendor prefixes |
