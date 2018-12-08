@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Negative Margin</title>
+  <style>
+    .Center-Container {
+      background: #2e5f3e;
+      color: #4fa46b;
+      width: 100%;
+      height: 400px;
+      margin: 20px auto 40px;
+      clear: both;
+    }
+
+    .Center-Container {
+      position: relative;
+    }
+
+    .Center-Block {
+      background: #4fa46b;
+      color: #FFF;
+      padding: 20px;
+    }
+
+    .Center-Block.isNegative {
+      width: 50%;
+      height: 200px;
+      padding: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -25%;
+      margin-top: -100px;
+    }
+
+    .Center-Block.isOverflow {
+      overflow: auto;
+    }
+
+    .Center-Block.isBorderBox {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="Center-Container">
+    <div class="Center-Block isNegative isBorderBox isOverflow">
+      <h4 class="Title">Absolute Center,<br> Negative Margins.</h4>
+      <p>This box is absolutely centered vertically within its container using negative margins.</p>
+    </div>
+  </div>
+</body>
+</html>

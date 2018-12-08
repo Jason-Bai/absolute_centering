@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .Center-Container {
+      background: #2e5f3e;
+      color: #4fa46b;
+      width: 100%;
+      height: 400px;
+      margin: 20px auto 40px;
+      clear: both;
+    }
+
+    .Center-Container.isGrid {
+      display: grid;
+      justify-items: center;
+      -webkit-justify-items: center;
+      -ms-justify-items: center;
+      align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
+    }
+
+    .Center-Block {
+      background: #4fa46b;
+      color: #FFF;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="Center-Container isGrid">
+    <div class="Center-Block">
+      <h4 class="Title">Absolute Center,<br> Flexbox.</h4>
+      <p>This Flexbox box is absolutely centered vertically within its container.</p>
+    </div>
+  </div>
+</body>
+
+</html>

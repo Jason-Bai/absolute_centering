@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+    .fix {
+      zoom: 1;
+    }
+    .fix:after, .fix:before  {
+      display: table;
+      content: "";
+      clear: both;
+    }
+
+    .zxx_align_box_4 li {
+      float: left;
+      margin-right: 13px;
+    }
+
+    .zxx_align_box_4 li div {
+      display: table-cell;
+      width: 144px;
+      height: 144px;
+      border: 1px solid #beceeb;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .zxx_align_box_4 li div img {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="zxx_align_box_4 fix">
+    <li>
+      <div><img src="./mm1.jpg"></div>
+    </li>
+    <li>
+      <div><img src="./mm2.jpg"></div>
+    </li>
+    <li>
+      <div><img src="./mm3.jpg"></div>
+    </li>
+    <li>
+      <div><img src="./mm4.jpg"></div>
+    </li>
+  </ul>
+</body>
+
+</html>
